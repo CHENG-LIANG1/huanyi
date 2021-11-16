@@ -1,11 +1,11 @@
 import React from "react";
-import { ReactDOM } from "react";
-import { Nav, NavLink, Container, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import "./nav.css"
 
 function NavigationBar(){
 
-  return(<div className="navi">
+  return(
+  <div className="navi">
     <Navbar collapseOnSelect expand="lg"  variant="dark">
       <Navbar.Brand className="logo" href="#home"> 
         Huanyi
