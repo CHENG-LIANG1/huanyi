@@ -25,5 +25,11 @@
 }
 
 .logox {
+    margin-top: 10px;
     border-radius: 200px !important;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
 }

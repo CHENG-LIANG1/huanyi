@@ -22,7 +22,7 @@ function Home(){
                             <Card.Subtitle className="subtitle">江苏 南通</Card.Subtitle>
                                 
                             </Card.Body>
-                            <Card.Footer>
+                            <Card.Footer className="footer">
                                 加入时间：2018年12月4日
                             </Card.Footer>
                         </Card>
@@ -40,7 +40,7 @@ function Home(){
                                         <Card.Subtitle className="subtitle">江苏 南通</Card.Subtitle>
                                
                             </Card.Body>
-                            <Card.Footer>
+                            <Card.Footer className="footer">
                                 加入时间：2010年11月1日
                             </Card.Footer>
                         </Card>
@@ -58,7 +58,7 @@ function Home(){
                                         <Card.Subtitle className="subtitle">江苏 南通</Card.Subtitle>
                             
                             </Card.Body>
-                            <Card.Footer>
+                            <Card.Footer className="footer">
                                 加入时间：2017年6月
                             </Card.Footer>
                         </Card>
