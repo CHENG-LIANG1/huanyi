@@ -34,12 +34,19 @@
 }
 
 .links {
-    width: 40%;
+    margin-top: 3%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align: center;
 }
+
+.links li {
+    list-style: none;
+}
+
 
 .active {
     color: white;

@@ -14,11 +14,12 @@ function NavigationBar(){
       </Navbar.Brand>
       <Navbar.Toggle className="ham" aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <div className="links">
-          <NavLink className="link"  to="/"  >首页</NavLink>
-          <NavLink className="link"  to="/timeline">时间线</NavLink>
-          <NavLink className="link"  to="/d">other</NavLink>
-        </div>
+        <ul className="links">
+
+          <li><NavLink className="link"  to="/"  >首页</NavLink></li>
+          <li><NavLink className="link"  to="/timeline">时间线</NavLink></li>
+          <li><NavLink className="link"  to="/d">other</NavLink></li>
+        </ul>
 
       </Navbar.Collapse>
     </Navbar>
