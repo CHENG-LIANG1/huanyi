@@ -6,10 +6,16 @@
 
 .card {
     margin-bottom: 20px !important;
+    border-radius: 20px;
 }
 
 .title {
     text-align: center;
+    color: blue;
+}
+
+.link {
+    text-decoration: none;
 }
 
 
