@@ -1,12 +1,12 @@
 .cards {
     margin-top: 10%;
-    width: 80% !important;
+    width: 85% !important;
 
 }
 
 .card {
     margin-bottom: 20px !important;
-    border-radius: 20px;
+    border-radius: 20px !important;
 }
 
 .title {
@@ -32,7 +32,9 @@
 
 .logox {
     margin-top: 10px;
-    border-radius: 200px !important;
+    border-radius: 260px !important;    
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .footer {
