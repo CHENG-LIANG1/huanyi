@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import { Nav, Navbar } from 'react-bootstrap';
+import React from "react";
+import { Navbar } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
 import "./nav.css"
 
