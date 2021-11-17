@@ -21,7 +21,12 @@
 .link {
     font-weight: 800;
     font-size: 25px;
-    text-align: center;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.link:hover {
+    color: white;
 }
 
 .ham {
@@ -29,6 +34,13 @@
 }
 
 .links {
+    width: 40%;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.active {
+    color: white;
 }
