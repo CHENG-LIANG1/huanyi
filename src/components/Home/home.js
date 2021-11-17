@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Card, Row, Col } from 'react-bootstrap'
 import "./home.css"
+import weiboPic from "./weibo.png"
 
 function Home(){
 
@@ -29,7 +30,7 @@ function Home(){
                     <Col>
                         <Card className="card">
                         <Card.Header className="header">微博</Card.Header>
-                            <Card.Img className="logox" variant="top" src="https://wx3.sinaimg.cn/mw2000/6de4dc19ly8grwyybvzqfj20u00u00v4.jpg" />
+                            <Card.Img className="logox" variant="top" src={weiboPic}/>
                             <Card.Body>
 
                             <Card.Link href="https://weibo.com/n/BlueberRyan" target={"_blank"}>
